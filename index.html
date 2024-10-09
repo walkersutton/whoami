@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>whoami</title>
+    <script src="node_modules/@xterm/xterm/lib/xterm.js"></script>
+    <link
+      rel="stylesheet"
+      href="node_modules/@xterm/xterm/css/xterm.css"
+    />
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="js/meat.js"></script>
+    <style>
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #272822;
+      }
+      h1 {
+        text-align: center;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>whoami</h1>
+      <div class="terminal"></div>
+    </div>
+  </body>
+</html>

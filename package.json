@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@xterm/xterm": "^5.5.0",
+    "jquery": "^3.7.1",
+    "openai": "^4.67.3"
+  },
+  "devDependencies": {
+    "prettier": "3.3.3"
+  }
+}
